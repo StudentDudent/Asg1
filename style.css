@@ -1,6 +1,7 @@
 .logo {
     width: 20px;
     height: 20px;
+    padding: 0cm;
 }
 .topnav {
   background-color: #3b2c19;
@@ -12,7 +13,7 @@
   float: left;
   color: #ffee01f9;
   text-align: center;
-  padding: 14px 16px;
+  padding: 16px 16px;
   text-decoration: none;
   font-size: 17px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -59,11 +60,28 @@
     max-height: 100%;
   }
 .h2 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Lucida Sans Regular';
 }
-.p {
-    text-align: left;
+
+.h3 {
+    font-family: 'cursive';
 }
+
 .character {
     padding-left: 1000px;
+    align-items: flex-end;
+}
+.mush {
+    border: 2px solid #000000;
+    font-family: cursive;
+    background-color: #b8874d;
+    text-align: left;
+    padding-left: 20px;
+}
+.iris {
+    border: 2px solid #000000;
+    font-family: cursive;
+    background-color: #b8874d;
+    text-align: left;
+    padding-left: 20px;
 }
