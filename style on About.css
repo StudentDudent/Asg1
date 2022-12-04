@@ -46,6 +46,25 @@ header {
     margin: 0 auto;
     border-radius: 0 0 0 0;
 }
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgb(210, 165, 20);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+#myBtn:hover {
+    background-color: #555;
+  }
 .text {
     font-family: cursive;
     text-align: left;
@@ -113,4 +132,36 @@ table, th, td {
 .orange {
     border: 2px;
     background-color: #d8773f;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+.fa:hover {
+    opacity: 0.7;
+  }
+  
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+.fa-instagram {
+    background: #f619ac;
+    color: white;
+}
+  
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-reddit {
+    background: #ff5700;
+    color: white;
 }
