@@ -97,6 +97,11 @@
 .character {
     float: right;
     margin-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    width: 100%;
+    height: auto;
 }
 .mush {
     border: 2px solid #000000;
