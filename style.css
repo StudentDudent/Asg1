@@ -29,6 +29,7 @@ header {
   display: block;
   font-size: 17px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 40;
 }
 
 .topnav a:hover {
@@ -106,6 +107,27 @@ header {
     text-align: left;
     padding-left: 20px;
     margin-right: 10px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    padding: 0 4px;
+  }
+  
+.column {
+    flex: 50%;
+    padding: 0 4px;
+  }
+  
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+
+.skill{
+    float: right;
+    margin-left: 20%;
 }
 .white {
     border: 2px;
