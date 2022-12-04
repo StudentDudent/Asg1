@@ -36,6 +36,10 @@ header {
   background-color: #000000;
   color: #ffffff;
 }
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
 
 .topnav-wrap .topnav {
     max-width: 1300px;
@@ -148,4 +152,7 @@ header {
 .red {
     border: 2px;
     background-color: #eb4e4e;
+}
+.WayCharacter {
+    font-size: x-large;
 }

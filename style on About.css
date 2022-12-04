@@ -1,0 +1,44 @@
+.logo {
+    width: 20px;
+    height: 20px;
+    padding: 0cm;
+    margin-right: 10px;
+}
+header {
+    width: 100%;
+    height: 80px;
+    background: #3b2c19;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topnav {
+  background-color: #3b2c19;
+  overflow: hidden;
+  position: relative;
+  border-radius: 0 0 0 0;
+}
+
+.topnav a {
+  float: left;
+  color: #ffee01f9;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 17px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 40;
+}
+
+.topnav a:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.topnav-wrap .topnav {
+    max-width: 1300px;
+    margin: 0 auto;
+    border-radius: 0 0 0 0;
+}
