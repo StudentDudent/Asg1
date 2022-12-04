@@ -42,3 +42,49 @@ header {
     margin: 0 auto;
     border-radius: 0 0 0 0;
 }
+.WayCharacter {
+    font-size: x-large;
+}
+table, th, td {
+    border:1px solid black;
+    text-align: center;
+    width: 50%;
+    height: 50%;
+  }
+.damage {
+    border: 2px solid #000000;
+    font-family: cursive;
+    background-color: #b8874d;
+    text-align: left;
+    padding-left: 20px;
+    margin-right: 10px;
+    padding-top: 10px;
+}
+.white {
+    border: 2px;
+    background-color: rgb(192, 192, 192);
+}
+.green {
+    border: 2px;
+    background-color: rgb(4, 171, 4);
+}
+.blue {
+    border: 2px;
+    background-color: rgb(92, 131, 238);
+}
+.purple {
+    border: 2px;
+    background-color: #d841f0;
+}
+.violet {
+    border: 2px;
+    background-color: #d773e7;
+}
+.red {
+    border: 2px;
+    background-color: #ea4545;
+}
+.orange {
+    border: 2px;
+    background-color: #d8773f;
+}
