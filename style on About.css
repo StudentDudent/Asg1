@@ -46,6 +46,28 @@ header {
     margin: 0 auto;
     border-radius: 0 0 0 0;
 }
+.text {
+    font-family: cursive;
+    text-align: left;
+}
+.rest {
+    border: 2px solid #000000;
+    font-family: cursive;
+    background-color: #b8874d;
+    text-align: left;
+    padding-left: 20px;
+    margin-right: 10px;
+    padding-top: 10px;
+}
+.rest2 {
+    border: 2px solid #000000;
+    font-family: cursive;
+    background-color: #b8874d;
+    text-align: left;
+    padding-left: 20px;
+    margin-right: 10px;
+    padding-top: 10px;
+}
 .WayCharacter {
     font-size: x-large;
 }

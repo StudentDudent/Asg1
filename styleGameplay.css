@@ -90,12 +90,16 @@ body {
     cursor: pointer;
 }
 
+.gamemodes {
+    font-family: cursive;
+}
+
 .gamemode {
-    float: left;
+    padding-left: 50px;
     text-align: left;
 }
 
 .gamemode2 {
-    float: right;
+    padding-left: 50px;
     text-align: left;
 }
