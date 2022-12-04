@@ -1,0 +1,91 @@
+.logo {
+    width: 20px;
+    height: 40px;
+    padding: 0cm;
+    margin-right: 10px;
+}
+
+.topnav {
+  background-color: #3b2c19;
+  overflow: hidden;
+  position: relative;
+}
+
+.topnav a {
+  float: left;
+  color: #ffee01f9;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 17px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 40;
+}
+
+.topnav a:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+.topnav-wrap .topnav {
+    max-width: 1300px;
+    margin: 0 auto;
+    border-radius: 0 0 0 0;
+}
+* {
+    box-sizing: border-box;
+}
+  
+body {
+    margin: 0;
+    font-family: Arial;
+}
+  
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+  
+.column img {
+    opacity: 0.8; 
+    cursor: pointer; 
+}
+  
+.column img:hover {
+    opacity: 1;
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+.container {
+    position: relative;
+    display: none;
+}
+
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    font-size: 20px;
+}
+  
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}

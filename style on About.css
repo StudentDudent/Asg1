@@ -1,6 +1,6 @@
 .logo {
     width: 20px;
-    height: 20px;
+    height: 40px;
     padding: 0cm;
     margin-right: 10px;
 }
@@ -36,6 +36,10 @@ header {
   background-color: #000000;
   color: #ffffff;
 }
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
 
 .topnav-wrap .topnav {
     max-width: 1300px;

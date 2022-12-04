@@ -4,7 +4,7 @@
     <meta name="author" content="Najib IT06">
     <meta name="viewport" content="width=device-width">
     <title>Gameplay - Hero Wars Mobile GetToKnow</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="styleGameplay.css" rel="stylesheet" type="text/css" />
     <script src="script.js"></script>
 </head>
 <body style="background-color: #C69C6D;">
@@ -13,11 +13,55 @@
             <a href="Home.html"><img src="App profile/logo.png" width="100px" height="100px"></a>
         </div>
         <a href="Gameplay.html">Gameplay</a>
-        <a href="Tips.html">Tips</a>
+        <a href="Tips.html">Notes & Tips</a>
         <a href="About.html">About</a>
         <a class="active" href="https://www.hero-wars.com/" target="_blank">PLAY!</a>
     </div>
     <script src="script.js"></script>
+    <div style="text-align:center">
+        <h2>Join The Adventure With Your Heroes!</h2>
+        <p>Hero Wars mobile allows you to participate in different game modes:
+            
+        </p>
+        <p>Click on the images below:</p>
+      </div>
+    <div class="row">
+        <div class="column">
+            <img src="Gameplay/Arena Fight.jpeg" alt="Fights in the Arena" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="Gameplay/Campaign Fight.jpeg" alt="Advance Through the Campaign" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="Gameplay/Campaign.jpeg" alt="Campaign Chapters" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="Gameplay/MayaArtifacts.jpeg" alt="Upgrade your Hero's artifacts" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="Gameplay/Outland Fight.jpeg" alt="Outland Fights" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="Gameplay/Titan Fight.jpeg" alt="Fight through the Titan Dungeon" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="Gameplay/Titans.jpeg" alt="Join a guild to participate in more fights" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="Gameplay/Tower.jpeg" alt="Tower Fights" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="Gameplay/Upgrade Hero.jpeg" alt="Upgrade your Hero's skills and rank" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="Gameplay/Upgrade Titan.jpeg" alt="Upgrade your Titans" style="width:100%" onclick="myFunction(this);">
+        </div>
+    </div>
+    <div class="container">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        <img id="expandedImg" style="width:100%">
+        <div id="imgtext"></div>
+    </div>
 
 </body>
 </html>
