@@ -9,10 +9,6 @@ In particular, as part of this section we recommend that you provide a list of U
 
 https://xd.adobe.com/view/67f7903e-4b35-41a0-b0e1-3351e5b37eb2-32a4/
 
-Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
-
-Existing Features
 Feature 1 - allows users hover over buttons in navigation bar to go to different pages by clicking
 Feature 2 - allows users to go tho the play store by clicking the play button
 Feature 3 - allow users to see the gameplay images by clicking the tab gallery on the gameplay page
