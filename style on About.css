@@ -66,12 +66,12 @@ header {
     background-color: #555;
   }
 .text {
-    font-family: cursive;
+    font-family: Tahoma;
     text-align: left;
 }
 .rest {
     border: 2px solid #000000;
-    font-family: cursive;
+    font-family: Tahoma;
     background-color: #b8874d;
     text-align: left;
     padding-left: 20px;
@@ -80,25 +80,27 @@ header {
 }
 .rest2 {
     border: 2px solid #000000;
-    font-family: cursive;
+    font-family: Tahoma;
     background-color: #b8874d;
     text-align: left;
     padding-left: 20px;
     margin-right: 10px;
     padding-top: 10px;
 }
-.WayCharacter {
-    font-size: x-large;
-}
+
 table, th, td {
     border:1px solid black;
     text-align: center;
     width: 50%;
     height: 50%;
   }
+.image {
+    width: 100%;
+    height: auto;
+}
 .damage {
     border: 2px solid #000000;
-    font-family: cursive;
+    font-family: Tahoma;
     background-color: #b8874d;
     text-align: left;
     padding-left: 20px;
@@ -164,4 +166,51 @@ table, th, td {
 .fa-reddit {
     background: #ff5700;
     color: white;
+}
+.gallery {
+    border: 1px solid #ccc;
+}
+  
+.gallery:hover {
+    border: 1px solid #777;
+}
+  
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+  
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+  
+* {
+    box-sizing: border-box;
+}
+  
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+  
+@media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+}
+  
+@media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+}
+  
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+
 }

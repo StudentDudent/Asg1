@@ -91,21 +91,23 @@
 }
 
 .h3 {
-    font-family: 'cursive';
+    font-family: 'Arial';
 }
 
 .character {
     float: right;
     margin-right: 10px;
-    display: flex;
+    display: block;
     flex-wrap: wrap;
     padding: 0 4px;
-    width: 100%;
+    width: auto;
     height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 .mush {
     border: 2px solid #000000;
-    font-family: cursive;
+    font-family: Tahoma;
     background-color: #b8874d;
     text-align: left;
     padding-left: 20px;
@@ -113,7 +115,7 @@
 }
 .iris {
     border: 2px solid #000000;
-    font-family: cursive;
+    font-family: Tahoma;
     background-color: #b8874d;
     text-align: left;
     padding-left: 20px;
@@ -121,7 +123,7 @@
 }
 .XeSha {
     border: 2px solid #000000;
-    font-family: cursive;
+    font-family: Tahoma;
     background-color: #b8874d;
     text-align: left;
     padding-left: 20px;
