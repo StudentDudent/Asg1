@@ -7,14 +7,18 @@ This website is for new visitors or players who would like to know about the mob
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory) Include the Adobe XD wireframe as a folder. You can include the XD share url.
+https://xd.adobe.com/view/67f7903e-4b35-41a0-b0e1-3351e5b37eb2-32a4/
 
 Features
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 
 Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
+Feature 1 - allows users hover over buttons in navigation bar to go to different pages by clicking
+Feature 2 - allows users to go tho the play store by clicking the play button
+Feature 3 - allow users to see the gameplay images by clicking the tab gallery on the gameplay page
+Feature 4 - allow users to visit the respective socials by clicking the icons in the about
+Feature 5 - allow users to go back to the homepage by clicking the logo in the top navigation bar
+
 ...
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
@@ -23,7 +27,10 @@ Another feature idea
 Technologies Used
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-JQuery
+Overwatch - https://overwatch.blizzard.com/en-gb/ - The formatting and style is what I wanted to go for.
+W3Schools - https://www.w3schools.com/howto/default.asp - I used and learned the codes of didfferent features from this website.
+
+JQuery***
 The project uses JQuery to simplify DOM manipulation.
 Testing
 For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
@@ -34,6 +41,9 @@ Try to submit the empty form and verify that an error message about the required
 Try to submit the form with an invalid email address and verify that a relevant error message appears
 Try to submit the form with all inputs valid and verify that a success message appears.
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+
+I decided to go for a trailer becaus I was not able to make the profile pictures responsive. I could not run the back to top button. I decided to also ditch the input of characters as it will make the page very long on mobile.
+I had troubles with the logo because it was a little too small as I screenshotted it.
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
